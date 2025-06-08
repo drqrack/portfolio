@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kofi_Appiah</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <!-- HERO SECTION -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/assets/images/kofi-logo.jpg" alt="Logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work-Experience</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Software Developer|Web Developer</p>
+          <h1>
+            Hi, I'm <span>Kofi </span>Appiah<br />
+            from Ghana
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about" class="h-full bg-gray-900">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/assets/images/chris-pic.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-text">
+              I am a passionate and detail-oriented software developer with
+              expertise in web development and programming. My skills span
+              across frontend and backend technologies, including HTML, CSS, Tailwind CSS,
+              JavaScript, Node.js, and React. I have a strong ability to create
+              efficient, scalable, and user-friendly applications tailored to
+              meet diverse needs.<br />
+              I thrive on solving complex problems and transforming ideas into
+              functional, visually appealing digital solutions. With a proactive
+              approach and a continuous desire to learn, I aim to contribute to
+              innovative projects that make a meaningful impact.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Educations</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Developer</span><br />"I am a passionate web
+                  developer specializing in creating responsive, user-friendly
+                  websites and web applications. With expertise in modern web
+                  technologies, I bring innovative ideas to life, ensuring
+                  seamless performance and engaging user experiences."
+                </li>
+                <!-- <li>
+                  <span>Software Tester</span><br />"I am a detail-oriented
+                  software tester dedicated to ensuring the quality and
+                  reliability of applications. With expertise in identifying
+                  bugs, analyzing functionality, and enhancing user experience,
+                  I help deliver flawless software solutions."
+                </li> -->
+                <!-- <li>
+                  <span>Python Expert</span><br />"I am a Python expert with a
+                  strong command of developing efficient, scalable, and robust
+                  solutions. From automation and data analysis to web
+                  development and AI integration, I leverage Python to solve
+                  complex problems and drive innovation."
+                </li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2017-2021</span><br />"Completed BSc Computer Science and Engineering 
+                  from University of Mines and Technology, Ghana, with a focus on software development 
+                  and web technologies, achieving a CWA of 79.71% and graduating with Second Class Upper Honours."
+                </li>
+                <li>
+                  <span>2013-2016</span><br />
+                  "Completed Senior High School at Opoku Ware School, Ghana, with a focus on Science, 
+                  achieving an excellence performance in the WASSCE examination."
+                </li>
+                <!-- <li><span>Python Expert</span><br>Ai/ML Pyhton</li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Oct 2024 - Current</span><br />"Currently working as an IT Officer at Regimanuel Concrete 
+                  Products Ltd, where I manage and maintain IT systems, ensuring smooth operations and providing 
+                  technical support to enhance productivity and efficiency within the organization."
+                </li>
+                <li>
+                  <span>Oct 2021 - September 2022</span><br />"Worked as an IT Support Techhnician at Cocoa Marketing Company Ltd, 
+                  where I provided technical support, managed IT infrastructure, and ensured the smooth operation of
+                  IT systems, contributing to the overall efficiency and productivity of the organization."
+                </li>
+                <!-- <li><span>Python Expert</span><br>Ai/ML Pyhton</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <span class="material-symbols-outlined color"> code </span>
+            <h2 class="color">Web Development</h2>
+            <p>
+              "I create responsive and interactive websites tailored for your
+              business needs, ensuring a seamless user experience across all
+              devices. My focus is on delivering visually appealing designs and
+              robust functionality to enhance your online presence and drive
+              engagement."
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <span class="material-symbols-outlined color"> terminal </span>
+            <h2 class="color">Software Tester</h2>
+            <p>
+              "As a software tester, I provide comprehensive testing services to
+              ensure the quality and reliability of your applications. I
+              specialize in identifying bugs, verifying functionality, and
+              enhancing user experience through thorough testing methodologies,
+              ensuring that your software performs flawlessly in real-world
+              scenarios."
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <span class="material-symbols-outlined color"> devices </span>
+            <h2 class="color">Responsive Web Development</h2>
+            <p>
+              "I design and develop mobile-responsive websites that provide an
+              optimal viewing experience across various devices. My approach
+              ensures that your site is visually appealing and fully functional
+              on smartphones and tablets, enhancing user engagement and
+              accessibility."
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work-Experience -->
+    <div id="portfolio" class="h-full bg-gray-900">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/assets/images/musikaly-homepage.png" alt="" style="height:450px;">
+            <div class="layers">
+              <h3>Musikaly</h3>
+              <p>This is a website of a musical products shop</p>
+              <a href="https://musikaly.vercel.app/"><span class="material-symbols-outlined">
+                link
+                </span></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/assets/images/work-2.png" alt="" style="height:450px;">
+            <div class="layers">
+              <h3>Event Organizing Website</h3>
+              <p>This is an Event Management Company Portfolio Website which has multiple features </p>
+              <a href="https://6772de304a8c1f00086cf91e--arthome-eventplanners.netlify.app/"><span class="material-symbols-outlined">
+                link
+                </span></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/assets/images/work-3.png" alt="" style="height:450px;">
+            <div class="layers">
+              <h3>Sterling Exim Academy Website</h3>
+              <p>This is an Educations company portfolio which describes their courses </p>
+              <a href="https://www.sterlingexim.com"><span class="material-symbols-outlined">
+                link
+                </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- CONTACT SECTION -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+     <div class="contact-left">
+      <h1 class="sub-title">Contact Me</h1>
+      <p><i class="fa-solid fa-paper-plane"></i>chrisappia461@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i>+233550716364</p>
+      <div class="social-icons">
+        <a href="https://github.com/drqrack"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.instagram.com/drqrack/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/chrisappia827/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <a href="/assets/images/kofi-cv.pdf" download class="btn">Download CV</a>
+     </div>
+     <div class="contact-right">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="9cada07d-ddb8-469c-b24e-5c0ce0f5e6ee">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="mesaage" rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Send</button>
+      </form>
+     </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Kofi_Appiah.</p>
+  </div>
+ </div>
+
+ <script src="https://kit.fontawesome.com/8c6099b8b6.js" crossorigin="anonymous"></script>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
