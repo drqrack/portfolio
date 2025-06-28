@@ -122,8 +122,8 @@ nav ul li a:hover::after {
 }
 
 .about-text {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .tab-links {
@@ -153,8 +153,8 @@ nav ul li a:hover::after {
 .tab-contents ul li {
     list-style: none;
     margin: 10px 0;
-    font-size: 16px;
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 .tab-contents ul li span {
